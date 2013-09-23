@@ -1,6 +1,8 @@
 img,object,embed{max-width:100%;}
 img{height:auto;}
 
+/* slide 1 */
+
 .slide1 {
 	background:url(../img/slide1/bg1.jpg) no-repeat center center fixed;
 	-webkit-background-size:cover;
@@ -9,6 +11,7 @@ img{height:auto;}
 	background-size:cover;
 	height: 100%;
 	width: 100%;
+	overflow-x: hidden
 }
 
 .gokailogo {
@@ -24,11 +27,68 @@ img{height:auto;}
 
 .gokaigalleon {
 	opacity: 0.5;
-	position:absolute;
+	position:relative;
 	top:20%;
 	right: 20%;
 }
 .gokaigalleon:hover {
 	opacity: 1;
 }
+
+/* group shot */
+
+.group {
+	background:url(../img/group.png) no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	height: 500px;
+	width: 100%;
+	overflow-x: hidden
+}
+
+/* gokai red */
+
+.slide2 {
+	background: #fff4f5 url(../img/slide2/red.png) no-repeat left top;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	clear:both;
+}
+#gokaired{float: right;margin: 100px 100px 0;}
+#gokaired h2{font-weight:400;font-size:3.375em;margin: 0 0 0px;}
+#gokaired h3{font-size:3em;color:#ff001e;margin:0 0 -10px;font-family:'Roboto Slab',serif;}
+#gokaired p{font-size:1.000em;width:500px;}
+#gokaired img{padding:1px;background:#ffffff;border:1px solid #d9d9d9;border-radius:5px;}
+
+
+.slide3 {
+	background: #f0f3ff url(../img/slide3/blue.png) no-repeat right top;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	clear:both;
+}
+
+#gokaiblue{float: left;margin: 100px 100px 0;}
+#gokaiblue h2{font-weight:400;font-size:3.375em;margin: 0 0 0px;}
+#gokaiblue h3{font-size:3em;color:#003cff;margin:0 0 -10px;font-family:'Roboto Slab',serif;}
+#gokaiblue p{font-size:1.000em;width:500px;}
+#gokaiblue img{padding:1px;background:#ffffff;border:1px solid #d9d9d9;border-radius:5px;}
+
+.slide4 {
+	background:#fffbe3 url(../img/slide4/yellow.png) no-repeat left top;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	clear:both;
+}
+
+#gokaiyellow{float: right;margin: 100px 100px 0;}
+#gokaiyellow h2{font-weight:400;font-size:3.375em;margin: 0 0 0px;}
+#gokaiyellow h3{font-size:3em;color:#ffd800;margin:0 0 -10px;font-family:'Roboto Slab',serif;}
+#gokaiyellow p{font-size:1.000em;width:500px;}
+#gokaiyellow img{padding:1px;background:#ffffff;border:1px solid #d9d9d9;border-radius:5px;}
 
