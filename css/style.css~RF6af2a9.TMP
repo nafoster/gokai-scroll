@@ -223,7 +223,7 @@ nav li {
 }
 
 #gokaiend{color:white;margin: 150px 0 0;}
-#gokaiend h2 {font-size:2em;text-shadow: 1px 1px 1px #000;text-align: center;}
+#gokaiend h2 {font-size:2em;text-shadow: 1px 1px 1px #000;}
 
 #gokaiend img {opacity:0.8;}
 #gokaiend img:hover, #gokaiend img:focus {opacity:1;}
@@ -281,12 +281,12 @@ nav li {
 
 @media only screen and (max-width: 800px) {
 	.slide2, .slide3, .slide4, .slide5, .slide6, .slide7 {background-image:none;}
-	#gokaired{float:left;margin: 50px 150px 0}
-	#gokaiblue{margin: 50px 150px 0;}
-	#gokaiyellow{float:left;margin: 50px 150px 0;}
-	#gokaigreen{margin: 50px 150px 0;}
-	#gokaipink{float:left;margin: 50px 150px 0;}
-	#gokaisilver{margin: 50px 150px 0;}
+	#gokaired{margin: 50px 200px 0 0}
+	#gokaiblue{margin: 50px 0 0 200px;}
+	#gokaiyellow{margin: 50px 200px 0 0;}
+	#gokaigreen{margin: 50px 0 0 200px;}
+	#gokaipink{margin: 50px 200px 0 0;}
+	#gokaisilver{margin: 50px 0 0 200px;}
 
 	.gokailogo {
 	width:314px;
@@ -295,8 +295,6 @@ nav li {
 	margin: 100px 0 30px;
 }
 #gokaidesc{color:white;position: relative;left: 20%;}
-}
 
-@media only screen and (max-width: 767px) {
-	#gokaiend, .slide8 {display:none;}
+#gokaiend 
 }

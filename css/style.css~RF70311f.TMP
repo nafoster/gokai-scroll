@@ -281,12 +281,12 @@ nav li {
 
 @media only screen and (max-width: 800px) {
 	.slide2, .slide3, .slide4, .slide5, .slide6, .slide7 {background-image:none;}
-	#gokaired{float:left;margin: 50px 150px 0}
-	#gokaiblue{margin: 50px 150px 0;}
-	#gokaiyellow{float:left;margin: 50px 150px 0;}
-	#gokaigreen{margin: 50px 150px 0;}
-	#gokaipink{float:left;margin: 50px 150px 0;}
-	#gokaisilver{margin: 50px 150px 0;}
+	#gokaired{margin: 50px 200px 0 0}
+	#gokaiblue{margin: 50px 0 0 200px;}
+	#gokaiyellow{margin: 50px 200px 0 0;}
+	#gokaigreen{margin: 50px 0 0 200px;}
+	#gokaipink{margin: 50px 200px 0 0;}
+	#gokaisilver{margin: 50px 0 0 200px;}
 
 	.gokailogo {
 	width:314px;
@@ -298,5 +298,15 @@ nav li {
 }
 
 @media only screen and (max-width: 767px) {
-	#gokaiend, .slide8 {display:none;}
+	#gokaiend {margin: 150px 200px 0;position: relative;}
+	#gokaiend h2 {text-align:center;}
+
+	.slide8 {
+	background: url(../img/slide8/bg8.jpg) no-repeat left top;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	overflow: hidden;
+	}
 }
