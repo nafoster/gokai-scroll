@@ -281,7 +281,7 @@ nav li {
 
 @media only screen and (max-width: 800px) {
 	.slide2, .slide3, .slide4, .slide5, .slide6, .slide7 {background-image:none;}
-	#gokaired{float:left;margin: 50px 150px 0}
+	#gokaired{float:left;margin: 50px 150px 0;}
 	#gokaiblue{margin: 50px 150px 0;}
 	#gokaiyellow{float:left;margin: 50px 150px 0;}
 	#gokaigreen{margin: 50px 150px 0;}
@@ -300,3 +300,159 @@ nav li {
 @media only screen and (max-width: 767px) {
 	#gokaiend, .slide8 {display:none;}
 }
+
+@media only screen and (max-width: 622px) {
+	body {font-size:14px;}
+	.gokailogo {left:20%;}
+	#gokaidesc{left: 10%}
+	#gokaired{float:left;margin: 50px 60px 0}
+	#gokaiblue{margin: 50px 60px 0;}
+	#gokaiyellow{float:left;margin: 50px 60px 0;}
+	#gokaigreen{margin: 50px 60px 0;}
+	#gokaipink{float:left;margin: 50px 60px 0;}
+	#gokaisilver{margin: 50px 60px 0;}
+}
+
+@media only screen and (max-width: 581px) {
+	.gokailogo {left:15%;}
+	#gokaidesc{left: 5%}
+}
+
+@media only screen and (max-width: 541px) {
+	.gokailogo {left:20%;}
+	#gokaidesc {left:13%;}
+	#gokaidesc h2 {font-size:2.3em;}
+	#gokaidesc p {width:400px;}
+}
+
+@media only screen and (max-width: 480px) {
+	.gokailogo {left:15%;}
+	#gokaidesc {left:8%;}
+	#gokaidesc h2 {font-size:2.3em;}
+	#gokaidesc p {width:400px;}
+	#gokaired{float:left;margin: 50px 40px 0}
+	#gokaiblue{margin: 50px 40px 0;}
+	#gokaiyellow{float:left;margin: 50px 40px 0;}
+	#gokaigreen{margin: 50px 40px 0;}
+	#gokaipink{float:left;margin: 50px 40px 0;}
+	#gokaisilver{margin: 50px 40px 0;}
+}
+
+@media only screen and (max-width: 446px) {
+	.gokailogo {left:10%;}
+	#gokaidesc {left:4%;}
+	#gokaidesc h2 {font-size:2.3em;}
+	#gokaidesc p {width:400px;}
+	#gokaired{float:left;margin: 50px 20px 0}
+	#gokaiblue{margin: 50px 20px 0;}
+	#gokaiyellow{float:left;margin: 50px 20px 0;}
+	#gokaigreen{margin: 50px 20px 0;}
+	#gokaipink{float:left;margin: 50px 20px 0;}
+	#gokaisilver{margin: 50px 20px 0;}
+}
+
+@media only screen and (max-width: 425px) {
+	body {font-size:13.5px;}
+	.gokailogo {left:10%;}
+	#gokaidesc {left:4%;}
+	#gokaidesc h2 {font-size:2.2em;}
+	#gokaidesc p {width:350px;}
+	.group {display:none;}
+	#gokaired{float:left;margin: 50px 5px 0;}
+	#gokaiblue{margin: 50px 5px 0;}
+	#gokaiyellow{float:left;margin: 50px 5px 0;}
+	#gokaigreen{margin: 50px 5px 0;}
+	#gokaipink{float:left;margin: 50px 5px 0;}
+	#gokaisilver{margin: 50px 5px 0;}
+}
+
+@media only screen and (max-width: 400px) {
+	.gokailogo {left:5%;}
+	#gokaidesc h2 {font-size:2em;}
+	#gokaidesc p {width:350px;}
+	.group {display:none;}
+	#gokaired{float:left;margin: 50px 5px 0;}
+	#gokaired h2 {font-size: 2.3em;}
+	#gokaired h3 {font-size:2em;}
+	#gokaired p {width:350px;}
+	#gokaiblue{margin: 50px 5px 0;}
+	#gokaiblue h2 {font-size: 2.3em;}
+	#gokaiblue h3 {font-size:2em;}
+	#gokaiblue p {width:350px;}
+	#gokaiyellow{float:left;margin: 50px 5px 0;}
+	#gokaiyellow h2 {font-size: 2.3em;}
+	#gokaiyellow h3 {font-size:2em;}
+	#gokaiyellow p {width:350px;}
+	#gokaigreen{margin: 50px 5px 0;}
+	#gokaigreen h2 {font-size: 2.3em;}
+	#gokaigreen h3 {font-size:2em;}
+	#gokaigreen p {width:350px;}
+	#gokaipink{float:left;margin: 50px 5px 0;}
+	#gokaipink h2 {font-size: 2.3em;}
+	#gokaipink h3 {font-size:2em;}
+	#gokaipink p {width:350px;}
+	#gokaisilver{margin: 50px 5px 0;}
+	#gokaisilver h2 {font-size: 2.3em;}
+	#gokaisilver h3 {font-size:2em;}
+	#gokaisilver p {width:350px;}
+}
+
+@media only screen and (max-width: 367px) {
+	.gokailogo {left:5%;}
+	#gokaidesc h2 {font-size:1.9em;}
+	#gokaidesc p {width:320px;}
+	.group {display:none;}
+	#gokaired{float:left;margin: 50px 14px 0;}
+	#gokaired p {width:310px;}
+	#gokaiblue{margin: 50px 14px 0;}
+	#gokaiblue p {width:310px;}
+	#gokaiyellow{float:left;margin: 50px 14px 0;}
+	#gokaiyellow p {width:310px;}
+	#gokaigreen{margin: 50px 14px 0;}
+	#gokaigreen p {width:310px;}
+	#gokaipink{float:left;margin: 50px 14px 0;}
+	#gokaipink p {width:310px;}
+	#gokaisilver{margin: 50px 14px 0;}
+	#gokaisilver p {width:310px;}
+}
+
+@media only screen and (max-width: 346px) {
+	.gokailogo {left:5%;}
+	#gokaidesc h2 {font-size:1.8em;}
+	#gokaidesc p {width:300px;}
+	.group {display:none;}
+	#gokaired{float:left;margin: 50px 14px 0;}
+	#gokaired p {width:310px;}
+	#gokaiblue{margin: 50px 14px 0;}
+	#gokaiblue p {width:310px;}
+	#gokaiyellow{float:left;margin: 50px 14px 0;}
+	#gokaiyellow p {width:310px;}
+	#gokaigreen{margin: 50px 14px 0;}
+	#gokaigreen p {width:310px;}
+	#gokaipink{float:left;margin: 50px 14px 0;}
+	#gokaipink p {width:310px;}
+	#gokaisilver{margin: 50px 14px 0;}
+	#gokaisilver p {width:310px;}
+}
+
+@media only screen and (max-width: 337px) {
+	.gokailogo {left:0%;}
+	#gokaidesc h2 {font-size:1.7em;}
+	#gokaidesc p {width:300px;}
+	.group {display:none;}
+	#gokaired{float:left;margin: 50px 10px 0;}
+	#gokaired p {width:290px;}
+	#gokaiblue{margin: 50px 10px 0;}
+	#gokaiblue p {width:290px;}
+	#gokaiyellow{float:left;margin: 50px 10px 0;}
+	#gokaiyellow p {width:290px;}
+	#gokaigreen{margin: 50px 10px 0;}
+	#gokaigreen p {width:290px;}
+	#gokaipink{float:left;margin: 50px 10px 0;}
+	#gokaipink p {width:290px;}
+	#gokaisilver{margin: 50px 10px 0;}
+	#gokaisilver p {width:290px;}
+}
+
+
+
