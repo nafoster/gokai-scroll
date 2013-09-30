@@ -94,6 +94,8 @@ nav li {
 #gokaidesc h2{font-weight:bold;font-size:2.5em;margin:0 0 -5px;text-shadow: 1px 1px 1px #000;}
 #gokaidesc p{font-size:1.000em;width:500px;text-shadow: 1px 1px 1px #000;}
 
+.icon-angle-down {margin:0 0 0 200px;font-size:3.5em;}
+
 /* group shot */
 
 .group {
@@ -323,6 +325,8 @@ nav li {
 	#gokaidesc {left:13%;}
 	#gokaidesc h2 {font-size:2.3em;}
 	#gokaidesc p {width:400px;}
+	.icon-angle-down {margin:0 0 0 150px;font-size:3.5em;}
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -370,6 +374,7 @@ nav li {
 	.gokailogo {left:5%;}
 	#gokaidesc h2 {font-size:2em;}
 	#gokaidesc p {width:350px;}
+	.icon-angle-down {margin:0 0 0 100px;font-size:3.5em;}
 	.group {display:none;}
 	#gokaired{float:left;margin: 50px 5px 0;}
 	#gokaired h2 {font-size: 2.3em;}
@@ -401,6 +406,7 @@ nav li {
 	.gokailogo {left:5%;}
 	#gokaidesc h2 {font-size:1.9em;}
 	#gokaidesc p {width:320px;}
+	.icon-angle-down {margin:0 0 0 100px;font-size:3.5em;}
 	.group {display:none;}
 	#gokaired{float:left;margin: 50px 14px 0;}
 	#gokaired p {width:310px;}
@@ -420,6 +426,7 @@ nav li {
 	.gokailogo {left:5%;}
 	#gokaidesc h2 {font-size:1.8em;}
 	#gokaidesc p {width:300px;}
+	.icon-angle-down {margin:0 0 0 100px;font-size:3.5em;}
 	.group {display:none;}
 	#gokaired{float:left;margin: 50px 14px 0;}
 	#gokaired p {width:310px;}
@@ -439,6 +446,7 @@ nav li {
 	.gokailogo {left:0%;}
 	#gokaidesc h2 {font-size:1.7em;}
 	#gokaidesc p {width:300px;}
+	.icon-angle-down {margin:0 0 0 100px;font-size:3.5em;}
 	.group {display:none;}
 	#gokaired{float:left;margin: 50px 10px 0;}
 	#gokaired p {width:290px;}
